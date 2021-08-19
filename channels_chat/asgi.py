@@ -17,7 +17,7 @@ application = ProtocolTypeRouter({
     "websocket": AuthMiddlewareStack(
         URLRouter(
             [path('ws/currency/', CoinConsumer.as_asgi()),
-             path('ws/<str:room_name>/', ChatConsumer.as_asgi()),]
+             path('ws/<str:room_name>/', ChatConsumer.as_asgi())]
         )
     )
 })
