@@ -37,8 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'chat',
+
     'channels',
+
+    'currency',
+    'chat',
 ]
 
 MIDDLEWARE = [
@@ -130,3 +133,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+CRYPTOCURRENCY_ACCESS_KEY = '17f297c1-c190-4f50-9651-d0c4752ff327'
