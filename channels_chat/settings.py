@@ -38,8 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # third-party
     'channels',
+    'drf_yasg',
 
+    # apps
     'currency',
     'chat',
 ]

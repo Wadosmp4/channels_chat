@@ -1,7 +1,6 @@
-from django.shortcuts import render
-
-from .models import Message
 from django.views import View
+from django.shortcuts import render
+from .models import Message
 
 
 class ChatView(View):
